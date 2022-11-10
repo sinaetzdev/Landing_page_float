@@ -4,3 +4,29 @@
     box-sizing: border-box;
 }
 
+.footer{
+    background-color: rgb(160, 150, 150);
+}
+
+.footer__container{
+    width: 100%;
+}
+
+.footer__row{
+    display: flow-root;
+}
+
+.footer__item{
+    border: 1px solid rgb(177, 177, 177);
+    text-align: center;
+    padding: 8px;
+    margin-block: 8px;
+    margin-inline: 8px;
+}
+
+.footer__copyright{
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding-block: 8px;
+}
