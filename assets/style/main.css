@@ -1,13 +1,13 @@
 .main {
     background-color: #f1f1f1;
     border: 1px solid #414141;
+    padding-block: 16px;
 }
 
 .main__container {
     width: 100%;
     margin-inline: auto;
     padding-inline: 16px;
-    /* border: 1px solid red; */
 }
 
 @media(min-width:768px) {
@@ -27,17 +27,15 @@
     }
 }
 
-.main__border {
-    /* border: 1px solid red; */
-}
 
 .main__aside {
     border: 1px solid #414141;
     text-align: center;
     /* margin-inline: 8px; */
-    margin-block: 8px;
+    /* margin-block: 8px; */
     padding-block: 8px;
     width: 100%;
+    margin-bottom: 16px;
 }
 
 @media(min-width:768px) {
@@ -46,14 +44,14 @@
         float: left;
         margin-right: 8px;
         height: 100%;
-        margin-block: 0px;
+        margin-bottom: 0px;
     }
 }
 
 .main__section {
     border: 1px solid #414141;
     /* margin-inline: 8px; */
-    margin-block: 8px;
+    /* margin-block: 8px; */
     padding-block: 8px;
     text-align: center;
     width: 100%;
@@ -65,6 +63,5 @@
         float: left;
         margin-left: 8px;
         height: 100%;
-        margin-block: 0px;
     }
 }

@@ -1,5 +1,6 @@
 .footer {
     background-color: #414141;
+    padding-block: 16px;
     /* display: none; */
 }
 .footer__container {
