@@ -1,10 +1,13 @@
 .main {
-    background-color: rgb(60, 81, 60);
+    background-color: #f1f1f1;
+    border:1px solid #414141;
 }
 
 .main__container {
     width: 100%;
     margin-inline: auto;
+    padding-inline: 16px;
+    /* border: 1px solid red; */
 }
 
 @media(min-width:768px) {
@@ -17,33 +20,41 @@
     display: flow-root;
     width: 100%;
 }
+.main__border{
+    /* border: 1px solid red; */
+}
 
 .main__aside {
-    background-color: greenyellow;
+border: 1px solid #414141;
     text-align: center;
-    margin-inline: 8px;
+    /* margin-inline: 8px; */
     margin-block: 8px;
     padding-block: 8px;
+    width: 100%;
 }
 
 @media(min-width:768px) {
     .main__aside {
-        max-width: 30%;
+        max-width: calc(30% - 8px);
         float: left;
+        margin-right: 8px;
+
     }
 }
 
 .main__section {
-    background-color: rgb(110, 160, 36);
-    margin-inline: 8px;
+    border: 1px solid #414141;
+    /* margin-inline: 8px; */
     margin-block: 8px;
     padding-block: 8px;
     text-align: center;
+    width: 100%;
 }
 
 @media(min-width:768px) {
     .main__section {
-        max-width: 70%;
+        max-width: calc(70% - 8px);
         float: left;
+        margin-left: 8px;
     }
 }
