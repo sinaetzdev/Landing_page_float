@@ -14,9 +14,9 @@
     }
 }
 
-@media(min-width:468px) {
+@media(min-width:768px) {
     .footer__container {
-        max-width: 468px;
+        max-width: 768px;
     }
 }
 
@@ -77,4 +77,11 @@
     .footer__item{
         max-width: calc(12.5% - 16px);
     }
+}
+
+.footer__copyright{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    color: white;
 }
