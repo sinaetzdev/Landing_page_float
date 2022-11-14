@@ -5,7 +5,13 @@
 .main__container {
     width: 100%;
     margin-inline: auto;
-    padding: 16px;
+    padding-inline: 16px;
+}
+
+@media(min-width:768px){
+    .main__container{
+        max-width: 768px;
+    }
 }
 
 .main__row {
@@ -15,11 +21,28 @@
 
 .main__aside{
     border: 1px solid black;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     text-align: center;
+}
+
+@media(min-width:768px){
+    .main__aside{
+        width: calc(30% - 16px);
+        float: left;
+        margin-right: 16px;
+        height: 100px;
+    }
 }
 
 .main__section{
     border: 1px solid black;
     text-align: center;
+}
+
+@media(min-width:768px){
+    .main__section{
+        width: 70%;
+        float: left;
+        height: 100px;
+    }
 }
