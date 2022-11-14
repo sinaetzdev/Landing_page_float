@@ -1,6 +1,7 @@
 .main {
     background-color: #b6b6b6;
     padding-block: 16px;
+    display: none;
 }
 
 .main__container{
