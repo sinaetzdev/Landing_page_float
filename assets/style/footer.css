@@ -1,5 +1,6 @@
 .footer {
     background-color: grey;
+/* background-image: url(../img/footer-background.jpg); */
     padding-block: 16px;
 }
 
@@ -84,4 +85,5 @@
     text-align: center;
     background-color: rgb(49, 49, 49);
     color: white;
+    padding: 8px;
 }
